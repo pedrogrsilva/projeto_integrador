@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Drive&Go</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="imagens/logo.png" alt="Logo">
+            <span>
+                <a href="index.html">Home</a>
+                <a href="empresa.html">Empresa</a>
+                <a href="veiculos.html">Veículos</a>
+                <a href="pecas.html">Peças</a>
+                <a href="carrinho.html">Carrinho</a>
+                <a href="formulario.html">Formulário</a>
+            </span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h1>Formulário de Contato</h1>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required pattern="\(\d{2}\) \d{4,5}-\d{4}">
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" placeholder="Digite sua idade" min="1" max="120" required>
+
+                <label for="reclame-aqui">Reclame Aqui (mínimo 50 caracteres):</label>
+                <textarea id="reclame-aqui" name="reclame-aqui" placeholder="Escreva sua reclamação aqui..." minlength="50" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+
+
+
+    <br> <br> <br> <br> <br> <br> <br> <br>
+
+    <footer>
+        <div>
+            &copy; 2024 | Drive&Go | Créditos
+        </div>
+        <div>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
